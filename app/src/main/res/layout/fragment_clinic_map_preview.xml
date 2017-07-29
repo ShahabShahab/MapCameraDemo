@@ -1,0 +1,53 @@
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:clipChildren="false"
+    android:clipToPadding="false"
+    tools:context="com.example.user.mapapplication.MapsActivity"
+    android:layoutDirection="rtl"
+    android:padding="5dp"
+    app:cardCornerRadius="5dp">
+
+    <RelativeLayout
+        android:padding="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:id="@+id/imgClinic"
+            android:layout_gravity="center"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/gray"
+            />
+        <LinearLayout
+            android:layout_marginRight="10dp"
+            android:layout_toLeftOf="@id/imgClinic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:padding="5dp"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="نام"
+                android:textColor="@color/colorAccent"
+                android:id="@+id/txtClinicName"
+                android:gravity="center"
+                android:textSize="16sp" />
+            <TextView
+                android:padding="5dp"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="آدرس"
+                android:id="@+id/txtClinicAddress"
+                android:gravity="center"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

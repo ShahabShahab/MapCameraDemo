@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">MapApplication</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="stop_animation">stop animation</string>
+    <string name="animate">animate</string>
+    <string name="left_arrow">left_arrow</string>
+    <string name="up_arrow">Up Arrow</string>
+    <string name="down_arrow">down arrow</string>
+    <string name="right_arrow">right arrow</string>
+    <string name="zoom_in">zoom in</string>
+    <string name="zoom_out">zoom out</string>
+    <string name="tilt_more">tilt more</string>
+    <string name="tilt_less">tilt more</string>
+    <string name="duration">duration</string>
+    <string name="go_to_enghelab">go_to_enghelab</string>
+    <string name="go_to_bondi">go_to_bondi</string>
+    <string name="map_not_ready">map not ready</string>
+    <string name="map_not_ready1">map not ready 1</string>
+</resources>
